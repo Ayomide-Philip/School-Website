@@ -291,7 +291,7 @@ div.about-container>h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
-    width: 80%;
+    width: 90%;
 }
 
 div.principal-item {
@@ -317,7 +317,7 @@ div.profile-picture>img {
     font-size: larger;
     font-weight: bolder;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -326,6 +326,8 @@ div.profile-picture>img {
 div.principal-item>.office {
     font-size: small;
     text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
 }
 
 @media (max-width: 769px) {
@@ -438,6 +440,12 @@ div.principal-item>.office {
 
     .about-image>img {
         height: 200px;
+    }
+
+    .principal {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
     }
 }
 
