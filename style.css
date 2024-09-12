@@ -215,6 +215,7 @@ div.welcome-container>h1 {
     gap: 2%;
     padding: 1%;
     border-radius: 5px;
+    background-color: white;
 }
 
 
@@ -312,6 +313,12 @@ div.about-container>h1 {
         gap: 2%;
         padding: 1%;
         border-radius: 5px;
+    }
+
+    .welcome:hover,
+    .about:hover {
+        box-sizing: border-box;
+        box-shadow: 5px 5px 2px black;
     }
 
     .about-button {
