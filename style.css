@@ -252,6 +252,7 @@ div.about-container>h1 {
 .about-button {
     padding-top: 2%;
     align-self: flex-start;
+    padding-bottom: 2%;
 }
 
 .about-button>a:hover {
@@ -328,6 +329,11 @@ div.principal-item>.office {
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
+}
+
+div.principal-item>.about-principal {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
 }
 
 @media (max-width: 769px) {
@@ -415,6 +421,20 @@ div.principal-item>.office {
     }
 }
 
+
+@media (min-width:320px) and (max-width: 571px) {
+    .principal {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 60%
+    }
+
+    div.profile-picture>img {
+        width: 80%;
+        height: 200px;
+    }
+}
+
 @media (max-width: 426px) {
     .welcome {
         width: 70%;
@@ -445,7 +465,7 @@ div.principal-item>.office {
     .principal {
         display: grid;
         grid-template-columns: 1fr;
-        width: 80%;
+        width: 80%
     }
 }
 
