@@ -143,6 +143,7 @@ div.image {
     gap: 2%;
     padding: 1%;
     border-radius: 5px;
+    background-color: white;
 }
 
 
@@ -408,4 +409,10 @@ div.about-container>h1 {
 
 .arrow-right {
     width: 40px;
+}
+
+.welcome:hover,
+.about:hover {
+    box-sizing: border-box;
+    box-shadow: 5px 5px 2px black;
 }
