@@ -311,7 +311,8 @@ div.profile-picture {
 }
 
 div.profile-picture>img {
-    width: 80%;
+    width: 200px;
+    height: 200px;
 }
 
 .principal-name {
@@ -334,6 +335,15 @@ div.principal-item>.office {
 div.principal-item>.about-principal {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
+}
+
+div.principal-item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first-principal-item,
+.third-principal-item {
+    margin-top: 5%;
 }
 
 @media (max-width: 769px) {
@@ -385,7 +395,7 @@ div.principal-item>.about-principal {
     .welcome:hover,
     .about:hover {
         box-sizing: border-box;
-        box-shadow: 5px 5px 2px black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .about-button {
