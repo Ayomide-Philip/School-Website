@@ -131,9 +131,6 @@ div.image {
     padding-top: 2%;
     padding-bottom: 2%;
     flex-direction: column;
-    animation: slideInLeft;
-    animation-duration: 2s;
-    animation-delay: 5s;
 }
 
 .welcome {
@@ -144,6 +141,9 @@ div.image {
     padding: 1%;
     border-radius: 5px;
     background-color: white;
+    animation: slideInLeft;
+    animation-duration: 2s;
+    animation-delay: 5s;
 }
 
 
@@ -204,9 +204,6 @@ div.welcome-container>h1 {
     padding-top: 2%;
     padding-bottom: 2%;
     flex-direction: column;
-    animation: slideInRight;
-    animation-duration: 2s;
-    animation-delay: 6s;
 }
 
 .about {
@@ -217,6 +214,9 @@ div.welcome-container>h1 {
     padding: 1%;
     border-radius: 5px;
     background-color: white;
+    animation: slideInRight;
+    animation-duration: 2s;
+    animation-delay: 6s;
 }
 
 
