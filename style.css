@@ -287,6 +287,12 @@ div.about-container>h1 {
     justify-content: center;
 }
 
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
 @media (max-width: 769px) {
 
     .welcome {
