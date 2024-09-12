@@ -280,6 +280,13 @@ div.about-container>h1 {
     box-shadow: 5px 5px 2px black;
 }
 
+.principal-officer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 769px) {
 
     .welcome {
