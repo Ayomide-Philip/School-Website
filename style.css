@@ -136,7 +136,7 @@ div.image {
 .welcome {
     width: 80%;
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2%;
     padding: 1%;
     border-radius: 5px;
@@ -209,7 +209,7 @@ div.welcome-container>h1 {
 .about {
     width: 80%;
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2%;
     padding: 1%;
     border-radius: 5px;
