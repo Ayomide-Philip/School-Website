@@ -292,6 +292,10 @@ div.about-container>h1 {
     padding-top: 2%;
 }
 
+.principal-officer > h1{
+    
+}
+
 .principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
