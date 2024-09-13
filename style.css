@@ -362,6 +362,11 @@ div.principal-item {
 
 @media (max-width: 769px) {
 
+    .first-principal-item,
+    .third-principal-item {
+        margin-top: 0%;
+    }
+
     .welcome {
         width: 60%;
         display: flex;
