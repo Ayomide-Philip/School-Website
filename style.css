@@ -710,6 +710,8 @@ footer {
     background-color: green;
     color: white;
     padding: 2%;
+    font-family: "Inter", sans-serif;
+    font-size: 700;
 }
 
 div.footer {
