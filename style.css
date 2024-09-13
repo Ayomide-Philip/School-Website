@@ -658,4 +658,21 @@ div.head-item {
     justify-items: center;
     align-content: center;
     width: 100%;
+    margin-top: 2%;
+}
+
+
+.principal-footer>div>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.principal-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 2%;
 }
