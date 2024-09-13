@@ -143,7 +143,7 @@ div.image {
     background-color: white;
     animation: slideInLeft;
     animation-duration: 2s;
-    animation-delay: 5s;
+    animation-delay: 2s;
 }
 
 
@@ -216,7 +216,7 @@ div.welcome-container>h1 {
     background-color: white;
     animation: slideInRight;
     animation-duration: 2s;
-    animation-delay: 6s;
+    animation-delay: 3s;
 }
 
 
@@ -317,6 +317,10 @@ div.principal-item {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: backInLeft;
+    animation-duration: 3s;
+    animation-delay: 4s;
+
 }
 
 div.profile-picture {
@@ -456,6 +460,7 @@ div.principal-item {
         display: flex;
         flex-direction: column;
         width: 60%;
+        gap: 2%;
     }
 
     div.profile-picture>img {
