@@ -451,6 +451,10 @@ div.principal-item {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 80%;
+        padding: 2%;
+        
+        grid-auto-rows: 1fr;
+        grid-auto-columns: 1fr;
     }
 }
 
@@ -461,6 +465,10 @@ div.principal-item {
         flex-direction: column;
         width: 60%;
         gap: 2%;
+    }
+
+    .principal-item {
+        margin-bottom: 2%;
     }
 
     div.profile-picture>img {
