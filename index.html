@@ -231,7 +231,7 @@
         <!-- ========== Start of the footer section ========== -->
         <footer>
             <div class="footer">
-                <span> &copy; <span id="date">2024 </span> The FOKHS. All rights reserved</span>
+                <span> &copy; <span id="date"></span> The FOKHS. All rights reserved</span>
             </div>
         </footer>
         <!-- ========== End of the footer section ========== -->
@@ -241,6 +241,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        var date = new Date();
+        document.getElementById("date").innerText = date.getFullYear();
+    </script>
 </body>
 
 </html>
