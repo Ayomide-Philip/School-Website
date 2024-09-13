@@ -551,8 +551,6 @@ div.head-item {
     }
 }
 
-
-
 @media (min-width:320px) and (max-width: 571px) {
     .principal {
         display: flex;
