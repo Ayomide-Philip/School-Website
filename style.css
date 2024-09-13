@@ -667,6 +667,13 @@ div.head-item {
     width: 30px;
 }
 
+.principal-footer>div>a>img:hover {
+    padding-top: 10px;
+}
+
+.head-footer>div>a>img:hover {
+    padding-top: 10px;
+}
 
 .principal-footer {
     display: grid;
