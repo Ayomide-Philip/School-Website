@@ -450,6 +450,7 @@ div.head-item {
     .third-principal-item {
         margin-top: 0%;
     }
+
     .first-head-item,
     .third-head-item {
         margin-top: 0%;
@@ -536,16 +537,17 @@ div.head-item {
         grid-template-columns: 1fr 1fr;
         width: 80%;
         padding: 2%;
-        
+
         grid-auto-rows: 1fr;
         grid-auto-columns: 1fr;
     }
+
     .head {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 80%;
         padding: 2%;
-        
+
         grid-auto-rows: 1fr;
         grid-auto-columns: 1fr;
     }
@@ -610,6 +612,7 @@ div.head-item {
     .principal {
         width: 80%
     }
+
     .head {
         width: 80%
     }
@@ -641,4 +644,18 @@ div.head-item {
     .about-image>img {
         height: 200px;
     }
+}
+
+.head-footer>div>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.head-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
 }
