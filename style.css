@@ -764,3 +764,8 @@ div.head-officer>h2.fountain-lead {
         height: 200px;
     }
 }
+
+div.testimonial-grid {
+    display: flex;
+    flex-direction: column;
+}
