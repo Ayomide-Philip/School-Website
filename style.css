@@ -626,14 +626,6 @@ div.testimonial-message>p {
 
 @media (max-width: 769px) {
 
-    div.testimonial-item {
-        display: flex;
-        flex-direction: column;
-        padding: 1%;
-        margin-bottom: 2%;
-        border-radius: 10px;
-    }
-
     .first-principal-item,
     .third-principal-item {
         margin-top: 0%;
@@ -741,8 +733,15 @@ div.testimonial-message>p {
     }
 }
 
-@media (max-width: 769px) {
-    
+@media (max-width: 750px) {
+
+    div.testimonial-item {
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin-bottom: 2%;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width:320px) and (max-width: 571px) {
