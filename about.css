@@ -165,3 +165,7 @@ div.school-history {
 div.school-history>h1 {
     text-align: center;
 }
+
+div.school-history>p {
+    font-size: large;
+}
