@@ -278,10 +278,6 @@ h2.fountain-lead {
     font-size: large;
 }
 
-.principal-officer>h2.fountain-lead {
-    color: white;
-}
-
 .arrow-right {
     width: 40px;
 }
@@ -310,7 +306,7 @@ h2.fountain-lead {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 
 .principal {
@@ -728,4 +724,25 @@ div.footer {
     .about-image>img {
         height: 200px;
     }
+}
+
+div.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-bottom: 1%;
+}
+
+div.about-container {
+    background-color: green;
+}
+
+div.principal-officer {
+    background-color: inherit;
+}
+
+div.head-officer {
+    background-color: green;
 }
