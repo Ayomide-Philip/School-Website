@@ -750,3 +750,7 @@ div.head-officer {
 div.about-container>h1 {
     color: white;
 }
+
+div.about-container>h2.fountain-lead {
+    color: white;
+}
