@@ -22,7 +22,7 @@ nav {
 
 nav a {
     color: white !important;
-    font-family: cursive;
+    font-family: "SUSE", sans-serif;
 }
 
 nav a:hover {
