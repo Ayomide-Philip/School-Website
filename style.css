@@ -278,6 +278,10 @@ h2.fountain-lead {
     font-size: large;
 }
 
+.principal-officer>h2.fountain-lead {
+    color: white;
+}
+
 .arrow-right {
     width: 40px;
 }
