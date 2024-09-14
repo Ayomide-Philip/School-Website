@@ -746,3 +746,7 @@ div.principal-officer {
 div.head-officer {
     background-color: green;
 }
+
+div.about-container>h1 {
+    color: white;
+}
