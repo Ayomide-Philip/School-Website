@@ -802,3 +802,8 @@ div.testimonial-message {
     align-items: center;
     padding: 1%;
 }
+
+div.testimonial-name{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
