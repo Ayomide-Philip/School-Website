@@ -582,7 +582,7 @@ div.testimonial-item {
     border-radius: 10px;
     animation: zoomInDown;
     animation-duration: 4s;
-    animation-delay: 6;
+    animation-delay: 6s;
 }
 
 div.profile {
