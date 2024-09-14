@@ -778,6 +778,8 @@ div.testimonial-item {
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 10px;
 }
 
 div.profile {
@@ -796,5 +798,7 @@ div.testimonial-item>div.profile>img {
 div.testimonial-message {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
 }
