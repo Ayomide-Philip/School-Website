@@ -769,3 +769,32 @@ div.testimonial-grid {
     display: flex;
     flex-direction: column;
 }
+
+div.testimonial-item {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1%;
+}
+
+div.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.testimonial-item>div.profile>img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+div.testimonial-message {
+    display: flex;
+    flex-direction: column;
+    
+}
