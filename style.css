@@ -210,6 +210,7 @@ div.welcome-container>h1 {
 
 .about {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     gap: 2%;
     padding: 1%;
@@ -531,7 +532,6 @@ div.testimonial {
     justify-content: center;
     align-items: center;
     padding: 5%;
-    margin-bottom: 1%;
 }
 
 div.about-container {
@@ -576,7 +576,7 @@ div.head-officer>h2.fountain-lead {
     }
 
     .welcome {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         gap: 2%;
@@ -611,7 +611,7 @@ div.head-officer>h2.fountain-lead {
     }
 
     .about {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         gap: 2%;
