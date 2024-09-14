@@ -523,6 +523,7 @@ div.footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
 }
 
 
@@ -835,4 +836,22 @@ div.testimonial-message>p {
     .about-image>img {
         height: 200px;
     }
+}
+
+div.social-media-account>div>a>img {
+    height: 40px;
+    width: 40px;
+}
+
+div.social-media-account {
+    display: flex
+}
+
+div.social-media-account>div {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+div.social-media-account>div>a>img:hover {
+    padding-bottom: 20px;
 }
