@@ -522,6 +522,7 @@ div.footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 @media (max-width: 769px) {
@@ -737,6 +738,7 @@ div.testimonial {
 
 div.about-container {
     background-color: green;
+    padding: 5%;
 }
 
 div.principal-officer {
@@ -755,7 +757,10 @@ div.about-container>h2.fountain-lead {
     color: white;
 }
 
-div.head-officer > h1{
+div.head-officer>h1 {
     color: white;
 }
 
+div.head-officer>h2.fountain-lead {
+    color: white;
+}
