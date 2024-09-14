@@ -209,7 +209,6 @@ div.welcome-container>h1 {
 }
 
 .about {
-    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2%;
@@ -224,7 +223,7 @@ div.welcome-container>h1 {
 
 .about-image>img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -682,7 +681,7 @@ div.head-officer>h2.fountain-lead {
     }
 
     .principal-item {
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     .head {
