@@ -606,11 +606,13 @@ div.testimonial-message {
     padding: 1%;
     justify-self: center;
     align-self: center;
+
 }
 
 div.testimonial-name {
     justify-self: flex-start;
     align-self: flex-start;
+    width: 80%;
 }
 
 div.testimonial-name {
