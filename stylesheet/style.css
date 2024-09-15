@@ -569,8 +569,7 @@ div.testimonial-grid {
 }
 
 div.testimonial-item {
-    display: grid;
-    grid-template-columns: 0.2fr 1fr;
+    display: flex;
     width: 100%;
     background-color: white;
     box-sizing: border-box;
@@ -585,8 +584,9 @@ div.testimonial-item {
 
 div.profile {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    justi
 }
 
 div.testimonial-item>div.testimonial-message>div.profile>img {
