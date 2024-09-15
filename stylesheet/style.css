@@ -589,9 +589,9 @@ div.profile {
     align-items: center;
 }
 
-div.testimonial-item>div.profile>img {
-    height: 150px;
-    width: 150px;
+div.testimonial-item>div.testimonial-message>div.profile>img {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 5px solid green;
 }
