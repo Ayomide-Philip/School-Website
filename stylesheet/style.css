@@ -588,6 +588,7 @@ div.profile {
     align-items: center;
     justify-self: flex-start;
     align-self: flex-start;
+    width: 100%;
 }
 
 div.testimonial-item>div.testimonial-message>div.profile>img {
