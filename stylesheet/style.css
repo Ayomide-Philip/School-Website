@@ -584,9 +584,10 @@ div.testimonial-item {
 
 div.profile {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    justi
+    justify-self: flex-start;
+    align-self: flex-start;
 }
 
 div.testimonial-item>div.testimonial-message>div.profile>img {
@@ -602,6 +603,7 @@ div.testimonial-message {
     justify-content: center;
     align-items: center;
     padding: 1%;
+    ju
 }
 
 div.testimonial-name {
