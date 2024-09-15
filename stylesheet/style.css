@@ -598,6 +598,12 @@ div.testimonial-item>div.testimonial-message>div.profile>img {
     margin-right: 2%;
 }
 
+div.profile>div {
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
 div.testimonial-message {
     display: flex;
     flex-direction: column;
