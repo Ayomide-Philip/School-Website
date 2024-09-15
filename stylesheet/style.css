@@ -595,6 +595,7 @@ div.testimonial-item>div.testimonial-message>div.profile>img {
     width: 50px;
     border-radius: 50%;
     border: 5px solid green;
+    margin-right: 2%;
 }
 
 div.testimonial-message {
@@ -603,7 +604,8 @@ div.testimonial-message {
     justify-content: center;
     align-items: center;
     padding: 1%;
-    ju
+    justify-self: center;
+    align-self: center;
 }
 
 div.testimonial-name {
