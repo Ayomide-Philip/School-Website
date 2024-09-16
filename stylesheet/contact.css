@@ -159,6 +159,8 @@ div.image>img {
 
 input[type="text"] {
     width: 100%;
+    border: 0px;
+    border-bottom: 1px;
 }
 
 input {
