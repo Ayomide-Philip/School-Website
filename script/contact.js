@@ -27,7 +27,7 @@ btn.addEventListener("click", (event) => {
     if (inputedMessage.lenth < 20) {
       event.preventDefault();
       console.log(inputedMessage.length);
-      
+      document.getElementById("message-error").innerText = ``
     }
   }
   event.preventDefault();
