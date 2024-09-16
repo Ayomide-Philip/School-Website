@@ -76,7 +76,7 @@ div.text-overlay {
 .text-overlay>p {
     color: white;
     text-transform: uppercase;
-    text-shadow: 2px 5px 2px black;
+    text-shadow: 5px 5px 7px black;
     animation: bounceInDown;
     animation-duration: 2s;
     animation-delay: 1s;
