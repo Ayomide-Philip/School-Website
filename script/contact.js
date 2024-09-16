@@ -5,7 +5,8 @@ btn.addEventListener("click", (event) => {
   var inputedMessage = document.getElementById("message").value;
 
   inputedName = inputedName.trim();
-
+  inputedMessage = inputedMessage.trim();
+  
   if (inputedName.length === 0) {
     event.preventDefault();
     document.getElementById("name-error").innerText =
@@ -16,6 +17,11 @@ btn.addEventListener("click", (event) => {
       document.getElementById("name-error").innerText =
         "You only Inputed your Surname or Lastname";
     }
+  }
+
+  if (inputedMessage.length === 0) {
+    event.preventDefault();
+    document.getElementById("message-error").innerText = "Input your message.";
   }
   event.preventDefault();
 });
