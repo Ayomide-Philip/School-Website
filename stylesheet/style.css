@@ -897,5 +897,5 @@ div.check-more>a:hover {
     color: white;
     background-color: green;
     box-sizing: border-box;
-    bo
+    box-shadow: 2px 5px 3px black;
 }
