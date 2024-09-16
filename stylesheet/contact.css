@@ -283,3 +283,8 @@ div.form>h1 {
         order: 2;
     }
 }
+
+.error {
+    color: red;
+    font-size: large;
+}
