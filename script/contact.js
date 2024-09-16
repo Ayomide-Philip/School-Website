@@ -4,7 +4,7 @@ btn.addEventListener("click", (event) => {
   var inputedName = document.getElementById("name").value;
   var inputedMessage = document.getElementById("message").value;
 
-  input
+  inputedName = inputedName.trim();
 
   if (inputedName.length === 0) {
     event.preventDefault();
@@ -15,9 +15,6 @@ btn.addEventListener("click", (event) => {
       event.preventDefault();
       document.getElementById("name-error").innerText =
         "You only Inputed your Surname or Lastname";
-    } else {
-      console.log("False");
-      console.log(inputedName.lastIndexOf(" "));
     }
   }
   event.preventDefault();
