@@ -161,6 +161,7 @@ input[type="text"] {
     width: 100%;
     border: 0px;
     border-bottom: 1px solid;
+    outline: none;
 }
 
 input {
