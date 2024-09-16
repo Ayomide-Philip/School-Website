@@ -219,3 +219,11 @@ input[type="submit"]:hover {
     background-color: green;
     color: white;
 }
+
+div.form>h1 {
+    color: green;
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
