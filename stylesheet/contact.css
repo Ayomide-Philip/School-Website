@@ -142,10 +142,9 @@ div.content-container {
     flex-direction: row;
     height: 80vh;
     width: 80%;
-    /* justify-content: center;
-    align-items: center; */
     background-color: white;
     padding: 1%;
+    grid-template-columns: 1fr 0.5fr;
 }
 
 body {
