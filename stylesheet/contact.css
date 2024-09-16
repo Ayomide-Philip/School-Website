@@ -164,8 +164,8 @@ input[type="text"] {
     outline: none;
 }
 
-input[type="text"]:focus{
-    border-bottom: 2px solid;
+input[type="text"]:focus {
+    border-bottom: 2px solid green;
 }
 
 input {
@@ -179,11 +179,15 @@ input[type="email"] {
     outline: none;
 }
 
-input
+input[type="email"]:focus {
+    border-bottom: 2px solid green;
+}
 
 textarea {
     width: 100%;
 }
+
+t
 
 div.btn {
     width: 100%;
