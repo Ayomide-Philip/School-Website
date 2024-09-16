@@ -203,3 +203,7 @@ div.testimonial-message>p {
     font-size: larger;
     font-weight: 300;
 }
+
+div.content-container {
+    padding: 5%;
+}
