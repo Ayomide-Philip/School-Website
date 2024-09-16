@@ -3,7 +3,7 @@ var btn = document.getElementById("submit");
 btn.addEventListener("click", (event) => {
   var inputedName = document.getElementById("name").value;
   var inputedMessage = document.getElementById("message").value;
-
+  var emailAddress = document.getElementById("")
   inputedName = inputedName.trim();
   inputedMessage = inputedMessage.trim();
 
@@ -34,5 +34,12 @@ btn.addEventListener("click", (event) => {
       }.`;
     }
   }
+
+  if (condition) {
+    
+  } else {
+    
+  }
+
   event.preventDefault();
 });
