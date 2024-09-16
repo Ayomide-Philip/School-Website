@@ -132,20 +132,22 @@ div.content-container {
     display: flex;
     height: 100vh;
     width: 100%;
-    margin-top: 100px; 
+    margin-top: 100px;
     justify-content: center;
     align-items: center;
 }
 
 .contact-form {
-    display: flex;
+    display: grid;
     flex-direction: row;
     height: 80vh;
     width: 80%;
     /* justify-content: center;
     align-items: center; */
+    background-color: white;
+    padding: 1%;
 }
 
-body{
-    
+body {
+    background-color: #F5F7F8;
 }
