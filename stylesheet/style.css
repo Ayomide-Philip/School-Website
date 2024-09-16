@@ -885,9 +885,15 @@ div.check-more>a {
     text-decoration: none;
     color: green;
     border: 2px solid green;
+    background-color: white;
     padding: 1%;
     border-radius: 10px;
     animation: zoomInDown;
     animation-duration: 4s;
     animation-delay: 6s;
+}
+
+div.check-more>a:hover {
+    color: white;
+    background-color: green;
 }
