@@ -141,7 +141,6 @@ div.content-container {
     border-radius: 10px;
     display: grid;
     flex-direction: row;
-    height: 80vh;
     gap: 2%;
     width: 80%;
     background-color: white;
@@ -241,7 +240,19 @@ div.form>h1 {
 }
 
 @media (max-width: 600px) {
-    
+    .contact-form {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        gap: 2%;
+        width: 80%;
+        background-color: white;
+        padding: 1%;
+        grid-template-columns: 1fr 0.5fr;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 
 @media (min-width:320px) and (max-width: 571px) {}
