@@ -207,3 +207,9 @@ div.testimonial-message>p {
 div.content-container {
     padding: 5%;
 }
+
+h2.fountain-lead {
+    letter-spacing: 2px;
+    font-size: large;
+    color: green;
+}
