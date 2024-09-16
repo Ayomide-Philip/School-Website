@@ -82,9 +82,8 @@ div.text-overlay {
     animation-delay: 1s;
     font-size: xx-large;
     font-optical-sizing: auto;
-    
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: 5px;
 }
