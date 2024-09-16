@@ -76,18 +76,17 @@ div.text-overlay {
 .text-overlay>p {
     color: white;
     text-transform: uppercase;
-    text-shadow: 2px 3px 2px black;
+    text-shadow: 2px 5px 2px black;
     animation: bounceInDown;
     animation-duration: 2s;
     animation-delay: 1s;
     font-size: xx-large;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
+    le
 }
 
 div.main-container {
