@@ -226,3 +226,7 @@ h1 {
     font-size: xx-large;
     text-align: center;
 }
+
+body {
+    background-color: #F5F7F8;
+}
