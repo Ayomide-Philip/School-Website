@@ -208,8 +208,9 @@ div.content-container {
     padding: 5%;
 }
 
-.testimonial > h1 {
-    
+.testimonial>h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
 }
 
 h2.fountain-lead {
@@ -217,6 +218,8 @@ h2.fountain-lead {
     font-size: larger;
     color: green;
     text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
 }
 
 h1 {
