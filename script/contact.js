@@ -24,10 +24,14 @@ btn.addEventListener("click", (event) => {
     document.getElementById("message-error").innerText =
       "Input your message into the field.";
   } else {
-    if (inputedMessage.lenth < 20) {
+    if (inputedMessage.length < 20) {
       event.preventDefault();
       console.log(inputedMessage.length);
-      document.getElementById("message-error").innerText = ``
+      document.getElementById(
+        "message-error"
+      ).innerText = `You need at least 20 letter word, it remains ${
+        20 - inputedMessage.length
+      }.`;
     }
   }
   event.preventDefault();
