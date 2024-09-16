@@ -164,6 +164,10 @@ input[type="text"] {
     outline: none;
 }
 
+input[type="text"]:focus{
+    border-bottom: 2px solid;
+}
+
 input {
     margin-bottom: 2%;
 }
@@ -174,6 +178,8 @@ input[type="email"] {
     border-bottom: 1px solid;
     outline: none;
 }
+
+input
 
 textarea {
     width: 100%;
