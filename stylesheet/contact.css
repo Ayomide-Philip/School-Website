@@ -200,3 +200,11 @@ div.btn {
     justify-content: center;
     align-items: center;
 }
+
+input[type ="submit"]{
+    background-color: white;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px
+    bord;
+}
