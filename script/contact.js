@@ -3,9 +3,11 @@ var btn = document.getElementById("submit");
 btn.addEventListener("click", (event) => {
   var inputedName = document.getElementById("name").value;
   var inputedMessage = document.getElementById("message").value;
-  var emailAddress = document.getElementById("")
+  var emailAddress = document.getElementById("emailAddress").value;
+
   inputedName = inputedName.trim();
   inputedMessage = inputedMessage.trim();
+  emailAddress = emailAddress.trim();
 
   if (inputedName.length === 0) {
     event.preventDefault();
@@ -35,10 +37,19 @@ btn.addEventListener("click", (event) => {
     }
   }
 
-  if (condition) {
-    
+  if (emailAddress.length === 0) {
+    event.preventDefault();
+    document.getElementById("email-error").innerText =
+      "Input you Gmail Address in the field";
   } else {
-    
+    if (emailAddress.indexOf("@") < 0) {
+      event.preventDefault();
+      document.getElementById(
+        "email-error"
+      ).innerText = `Input you Gmail Address with an @ sign, like ${emailAddress}@gmail.com `;
+    } else {
+        
+    }
   }
 
   event.preventDefault();
