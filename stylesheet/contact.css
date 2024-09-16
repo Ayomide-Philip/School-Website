@@ -157,7 +157,7 @@ body {
 
 div.image>img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
 }
 
 input[type="text"] {
