@@ -887,4 +887,7 @@ div.check-more>a {
     border: 2px solid green;
     padding: 1%;
     border-radius: 10px;
+    animation: zoomInDown;
+    animation-duration: 4s;
+    animation-delay: 6s;
 }
