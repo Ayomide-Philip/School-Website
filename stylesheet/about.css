@@ -141,10 +141,10 @@ image-container {
     animation-duration: 2s;
     animation-delay: 1s;
     font-size: xx-large;
-    font-weight: 500;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
     font-style: normal;
+    letter-spacing: 5px;
 }
 
 div.content-container {
