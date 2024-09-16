@@ -240,7 +240,9 @@ div.form>h1 {
     }
 }
 
-@media (max-width: 750px) {}
+@media (max-width: 600px) {
+    
+}
 
 @media (min-width:320px) and (max-width: 571px) {}
 
