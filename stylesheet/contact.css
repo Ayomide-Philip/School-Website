@@ -201,10 +201,16 @@ div.btn {
     align-items: center;
 }
 
-input[type ="submit"]{
+input[type="submit"] {
     background-color: white;
     border-radius: 10px;
-    width: 70px;
-    height: 50px
-    bord;
+    width: 100px;
+    height: 50px;
+    border: 2px solid green;
+    
+}
+
+input[type = "submit"]:hover{
+    background-color: green;
+    color: white;
 }
