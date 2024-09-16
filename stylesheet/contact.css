@@ -175,6 +175,9 @@ input[type="text"]:focus {
 input {
     margin-bottom: 3%;
     font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 input[type="email"] {
@@ -195,6 +198,9 @@ textarea {
     resize: none;
     margin-bottom: 2%;
     font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 textarea:focus {
