@@ -141,6 +141,7 @@ div.content-container {
     display: grid;
     flex-direction: row;
     height: 80vh;
+    gap: 2%;
     width: 80%;
     background-color: white;
     padding: 1%;
@@ -154,4 +155,8 @@ body {
 div.image>img {
     width: 100%;
     height: 70vh;
+}
+
+input[type = "text"]{
+    width: 100%;
 }
