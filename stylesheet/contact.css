@@ -169,6 +169,8 @@ input {
 
 input[type="email"] {
     width: 100%;
+    border: 0px;
+    border-bottom: 1px solid;
 }
 
 textarea {
