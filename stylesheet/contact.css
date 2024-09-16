@@ -190,7 +190,7 @@ textarea {
     width: 100%;
     outline: none;
     border-radius: 2px;
-    resize: vertical;
+    resize: none;
 }
 
 textarea:focus {
