@@ -287,4 +287,6 @@ div.form>h1 {
 .error {
     color: red;
     font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
