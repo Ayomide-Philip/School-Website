@@ -6,7 +6,7 @@ btn.addEventListener("click", (event) => {
 
   inputedName = inputedName.trim();
   inputedMessage = inputedMessage.trim();
-  
+
   if (inputedName.length === 0) {
     event.preventDefault();
     document.getElementById("name-error").innerText =
@@ -21,7 +21,14 @@ btn.addEventListener("click", (event) => {
 
   if (inputedMessage.length === 0) {
     event.preventDefault();
-    document.getElementById("message-error").innerText = "Input your message.";
+    document.getElementById("message-error").innerText =
+      "Input your message into the field.";
+  } else {
+    if (inputedMessage.lenth < 20) {
+      event.preventDefault();
+      console.log(inputedMessage.length);
+      
+    }
   }
   event.preventDefault();
 });
