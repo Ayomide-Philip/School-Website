@@ -1,5 +1,13 @@
 var btn = document.getElementById("submit");
-var name = document.getElementById("name");
-var message = document.getElementById("message");
 
-btn.addEventListener("click", (event) => {});
+btn.addEventListener("click", (event) => {
+  var inputedName = document.getElementById("name").value;
+  var inputedMessage = document.getElementById("message").value;
+  console.log(inputedName);
+  if (inputedName.length === 0) {
+    console.log("true");
+  } else {
+    console.log(inputedName);
+  }
+  event.preventDefault();
+});
