@@ -119,10 +119,11 @@ div.image {
 }
 
 .header-button>a:hover {
-    border: 2px solid white;
+  
     background-color: green;
     color: white;
     border-radius: 5px;
+    box-shadow: 2px 5px 3px black;
 }
 
 .welcome-container {
