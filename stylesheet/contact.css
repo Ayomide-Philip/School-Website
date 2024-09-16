@@ -185,9 +185,14 @@ input[type="email"]:focus {
 
 textarea {
     width: 100%;
+    outline: none;
+    border-radius: 2px;
+    resize: vertical;
 }
 
-t
+textarea:focus {
+    border: 2px solid green;
+}
 
 div.btn {
     width: 100%;
