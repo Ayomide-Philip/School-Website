@@ -11,3 +11,8 @@ document.addEventListener("copy", (event) => {
   event.preventDefault();
   console.log(event);
 });
+
+document.addEventListener("paste", (event) => {
+  event.preventDefault();
+  console.log(e)
+});
