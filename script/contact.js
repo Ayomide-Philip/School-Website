@@ -23,12 +23,14 @@ btn.addEventListener("click", (event) => {
 
   if (inputedMessage.length === 0) {
     event.preventDefault();
+    document.getElementById("message-error").style.display = "block";
     document.getElementById("message-error").innerText =
       "Input your message into the field.";
   } else {
     if (inputedMessage.length < 20) {
       event.preventDefault();
       console.log(inputedMessage.length);
+      document.getElementById("email-error").style.display = "block";
       document.getElementById(
         "message-error"
       ).innerText = `You need at least 20 letter word, it remains ${
