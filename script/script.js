@@ -14,5 +14,5 @@ document.addEventListener("copy", (event) => {
 
 document.addEventListener("paste", (event) => {
   event.preventDefault();
-  console.log(e)
+  console.log(event);
 });
