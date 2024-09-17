@@ -17,8 +17,11 @@ btn.addEventListener("click", (event) => {
   } else {
     if (inputedName.indexOf(" ") < 0) {
       event.preventDefault();
+      document.getElementById("name-error").style.display = "block";
       document.getElementById("name-error").innerText =
         "You only Inputed your Surname or Lastname";
+    } else {
+      document.getElementById("name-error").style.display = "none";
     }
   }
 
