@@ -39,18 +39,27 @@ btn.addEventListener("click", (event) => {
 
   if (emailAddress.length === 0) {
     event.preventDefault();
+    document.getElementById("email-error").style.display = "block";
     document.getElementById("email-error").innerText =
       "Input you Gmail Address in the field";
   } else {
     if (emailAddress.indexOf("@") < 0) {
       event.preventDefault();
+      document.getElementById("email-error").style.display = "block";
       document.getElementById(
         "email-error"
       ).innerText = `Input you Gmail Address with an @ sign, like ${emailAddress}@gmail.com `;
     } else {
-        
+      console.log(emailAddress.indexOf("@gmail.com") < 0);
+      if (emailAddress.indexOf("@gmail.com") < 0) {
+        event.preventDefault();
+        document.getElementById("email-error").style.display = "block";
+        document.getElementById(
+          "email-error"
+        ).innerText = `Input a correct Gmail Address, it should have @gmail.com`;
+      } else {
+        document.getElementById("email-error").style.display = "none";
+      }
     }
   }
-
-  event.preventDefault();
 });
