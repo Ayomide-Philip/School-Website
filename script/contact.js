@@ -30,12 +30,14 @@ btn.addEventListener("click", (event) => {
     if (inputedMessage.length < 20) {
       event.preventDefault();
       console.log(inputedMessage.length);
-      document.getElementById("email-error").style.display = "block";
+      document.getElementById("message-error").style.display = "block";
       document.getElementById(
         "message-error"
       ).innerText = `You need at least 20 letter word, it remains ${
         20 - inputedMessage.length
       }.`;
+    } else {
+      document.getElementById("message-error").style.display = "none";
     }
   }
 
