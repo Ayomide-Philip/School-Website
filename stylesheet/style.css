@@ -30,6 +30,7 @@ nav a:hover {
     border: none;
     border-bottom: 2px solid;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 nav {
