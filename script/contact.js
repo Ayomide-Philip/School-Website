@@ -11,6 +11,7 @@ btn.addEventListener("click", (event) => {
 
   if (inputedName.length === 0) {
     event.preventDefault();
+    document.getElementById("name-error").style.display = "block";
     document.getElementById("name-error").innerText =
       "Enter your name into this field";
   } else {
