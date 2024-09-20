@@ -192,3 +192,7 @@ div.form-logo>img {
     width: 150px;
     border-radius: 50%;
 }
+
+div.form {
+    width: 100%;
+}
