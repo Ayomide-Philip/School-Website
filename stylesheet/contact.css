@@ -324,3 +324,16 @@ div.thank-you-message>p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+
+@media (max-width: 426px) {
+    div.thank-you {
+        width: 90%;
+        background-color: white;
+        padding: 2%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
