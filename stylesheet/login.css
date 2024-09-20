@@ -224,8 +224,8 @@ div.password {
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 376px) {
     div.contact-form {
-        width: 70%;
+        width: 80%;
     }
 }
