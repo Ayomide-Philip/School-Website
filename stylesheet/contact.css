@@ -322,7 +322,7 @@ div.thank-you-message>h1 {
 div.thank-you-message>p {
     font-size: large;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 @media (max-width: 426px) {
