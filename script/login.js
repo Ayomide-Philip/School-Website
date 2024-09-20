@@ -53,6 +53,10 @@ var eye = document.getElementById("eye");
 
 eye.addEventListener("click", (event) => {
   var password = document.getElementById("password");
-  
+  console.log(password.getAttribute("type"));
+  if (password.getAttribute("type") == "password") {
+    console.log("true")
+  } else {
+    console.log("false")
+  }
 });
-console.log(eye);
