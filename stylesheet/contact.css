@@ -137,7 +137,7 @@ div.content-container {
     justify-content: center;
     align-items: center;
     animation: fadeInDownBig;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-delay: 1s;
 }
 
@@ -307,4 +307,14 @@ div.thank-you {
 
 div.thank-you-image>img {
     width: 150px;
+}
+
+div.thank-you-message {
+    text-align: center;
+}
+
+div.thank-you-message>h1 {
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
 }
