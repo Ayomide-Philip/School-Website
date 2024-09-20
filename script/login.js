@@ -55,8 +55,10 @@ eye.addEventListener("click", (event) => {
   var password = document.getElementById("password");
   console.log(password.getAttribute("type"));
   if (password.getAttribute("type") == "password") {
-    console.log("true")
+    password.setAttribute("type", "text");
+    eye.setAttribute("src", "./images/eye-svgrepo-com.svg");
   } else {
-    console.log("false")
+    password.setAttribute("type", "password");
+    eye.setAttribute("src", "./images/eye-closed-svgrepo-com.svg");
   }
 });
