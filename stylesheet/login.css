@@ -88,18 +88,7 @@ div.content-container {
     animation-delay: 1s;
 }
 
-.contact-form {
-    border-radius: 10px;
-    display: grid;
-    flex-direction: row;
-    gap: 2%;
-    width: 80%;
-    background-color: white;
-    padding: 1%;
-    grid-template-columns: 1fr 0.5fr;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 body {
     background-color: #F5F7F8;
