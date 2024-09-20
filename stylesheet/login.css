@@ -199,3 +199,14 @@ div.form-logo>img {
 div.form {
     width: 100%;
 }
+
+img.eye {
+    width: 30px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+div.password{
+    position: relative;
+}
