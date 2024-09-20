@@ -199,3 +199,9 @@ div.form>h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+
+div.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
