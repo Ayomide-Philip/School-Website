@@ -207,6 +207,18 @@ img.eye {
     cursor: pointer;
 }
 
-div.password{
+div.password {
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        width: 70%;
+    }
 }
