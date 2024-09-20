@@ -293,3 +293,8 @@ div.form>h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+
+div.thank-you {
+    width: 80%;
+    background-color: white;
+}
