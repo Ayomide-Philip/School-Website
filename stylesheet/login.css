@@ -76,59 +76,6 @@ div.social-media-account>div>a>img:hover {
     padding-bottom: 20px;
 }
 
-
-div.image>img {
-    width: 100%;
-    height: 80vh;
-    object-fit: fill;
-}
-
-div.image-container {
-    position: relative;
-}
-
-div.image {
-    position: relative;
-}
-
-div.text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
-    color: white;
-}
-
-.text-overlay>h1 {
-    font-family: "SUSE", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 2px 5px 2px black;
-    animation: bounceInDown;
-    animation-duration: 2s;
-    animation-delay: 1s;
-}
-
-.text-overlay>p {
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 2px 7px 2px black;
-    animation: bounceInDown;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    font-size: xx-large;
-    font-optical-sizing: auto;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 5px;
-}
-
 div.content-container {
     display: flex;
     width: 100%;
@@ -164,7 +111,7 @@ div.image-container>img {
     border-radius: 10px;
 }
 
-input[type="text"] {
+input[type="password"] {
     width: 100%;
     border: 0px;
     border-bottom: 1px solid;
@@ -172,7 +119,7 @@ input[type="text"] {
     font-size: large;
 }
 
-input[type="text"]:focus {
+input[type="password"]:focus {
     border-bottom: 2px solid green;
 }
 
@@ -199,7 +146,7 @@ input[type="email"]:focus {
     border-bottom: 2px solid green;
 }
 
-input[type="text"]:focus::placeholder,
+input[type="password"]:focus::placeholder,
 input[type="email"]:focus::placeholder,
 textarea:focus::placeholder {
     color: transparent;
