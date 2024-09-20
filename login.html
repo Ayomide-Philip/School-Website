@@ -16,7 +16,6 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Fountain Option Knowledge High School">
     <meta property="twitter:image" content="./images/school_logo.jpg">
-
 </head>
 
 <body>
@@ -67,16 +66,22 @@
                 <div class="form">
                     <h1>login</h1>
                     <div class="form-content">
-                        <form action="#">
+                        <form action="">
                             <div class="input">
                                 <input type="email" name="emailAddress" id="emailAddress"
                                     placeholder="Input your Email Address">
                                 <p class="error" id="email-error"></p>
                             </div>
                             <div class="input">
-                                <input type="password" name="password" id="password" placeholder="Input your Password">
+                                <div class="password">
+                                    <input type="password" name="password" id="password" placeholder="Input your Password">
+                                    <img src="./images/eye-closed-svgrepo-com.svg" alt="" class="eye">
+                                </div>
+                                <p class="error" id="password-error"></p>
                             </div>
-                            <div class="button"><input type="submit" value="Login"></div>
+                            <div class="button">
+                                <input type="submit" id="submit" value="Login">
+                            </div>
                         </form>
                     </div>
                 </div>
