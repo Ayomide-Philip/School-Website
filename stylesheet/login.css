@@ -78,6 +78,7 @@ div.social-media-account>div>a>img:hover {
 
 div.main-container {
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 div.content-container {
@@ -211,14 +212,20 @@ div.password {
     position: relative;
 }
 
-@media (max-width: 768px) {
-    .contact-form {
-        width: 40%;
+@media (max-width: 800px) {
+    div.contact-form {
+        width: 50%;
     }
 }
 
-@media (max-width: 600px) {
-    .contact-form {
+@media (max-width: 426px) {
+    div.contact-form {
+        width: 70%;
+    }
+}
+
+@media (max-width: 426px) {
+    div.contact-form {
         width: 70%;
     }
 }
