@@ -50,3 +50,9 @@ btn.addEventListener("click", (event) => {
 });
 
 var eye = document.getElementById("eye");
+
+eye.addEventListener("click", (event) => {
+  var password = document.getElementById("password");
+  
+});
+console.log(eye);
