@@ -48,3 +48,5 @@ btn.addEventListener("click", (event) => {
     }
   }
 });
+
+var eye = document.getElementById("eye");
