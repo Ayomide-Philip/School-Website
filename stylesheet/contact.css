@@ -295,6 +295,16 @@ div.form>h1 {
 }
 
 div.thank-you {
-    width: 80%;
+    width: 50%;
     background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.thank-you-image>img {
+    width: 150px;
 }
