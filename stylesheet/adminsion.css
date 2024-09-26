@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.navbar-brand>img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+nav {
+    background-color: green !important;
+    z-index: 1;
+
+}
+
+nav a {
+    color: white !important;
+    font-family: "SUSE", sans-serif;
+}
+
+nav a:hover {
+    color: black !important;
+    border: none;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.image>img {
+    width: 100%;
+    height: 80vh;
+    object-fit: fill;
+
+}
+
+div.image {
+    width: 100%;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    margin-top: 5px;
+}
+
+.image-container>.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 80%;
+    text-align: center;
+}
