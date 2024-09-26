@@ -901,3 +901,8 @@ div.check-more>a:hover {
     box-sizing: border-box;
     box-shadow: 2px 5px 3px black;
 }
+
+div.profile-picture>img {
+    border-radius: 50%;
+    border: 2px solid green;
+}
