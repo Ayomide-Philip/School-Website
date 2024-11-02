@@ -76,7 +76,6 @@ footer {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: large;
-    margin-top: 2%;
 }
 
 
@@ -144,4 +143,67 @@ div.social-media-account>div>a>img:hover {
     font-weight: 700;
     font-style: normal;
     letter-spacing: 5px;
+}
+
+div.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+    background-image: url("../images/schoolAdmission.jpg");
+}
+
+div.form>div.form-container>form>div.input input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid green;
+    outline: none;
+    background-color: inherit;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+}
+
+div.form>div.form-container>form>div.input input[type="text"]:focus {
+    border-bottom: 2px solid green;
+}
+
+div.form>div.form-container>h1 {
+    text-align: center;
+    color: green;
+}
+
+div.form {
+    width: 90%;
+}
+
+div.form-container {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label {
+    font-size: larger;
+}
+
+label>h4 {
+    margin: 0px;
 }
