@@ -226,3 +226,8 @@ div.logo>.logo-image>img {
     height: 100px;
     border-radius: 50%;
 }
+
+div.logo {
+    width: 100%;
+    display: flex;
+}
