@@ -152,10 +152,12 @@ div.content-container {
     align-items: center;
     padding: 2%;
     width: 100%;
-    background-image: url("../images/schoolAdmission.jpg");
+    /* background-image: url("../images/schoolAdmission.jpg"); */
+    background-color: wheat;
 }
 
-div.form>div.form-container>form>div.input input[type="text"] {
+div.form>div.form-container>form>div.input input[type="text"],
+div.form>div.form-container>form>div.input input[type="number"] {
     width: 100%;
     border: none;
     border-bottom: 1px solid green;
@@ -163,9 +165,12 @@ div.form>div.form-container>form>div.input input[type="text"] {
     background-color: inherit;
     font-size: 1em;
     font-family: "Poppins", sans-serif;
+    font-size: larger;
+    height: 30px;
 }
 
-div.form>div.form-container>form>div.input input[type="text"]:focus {
+div.form>div.form-container>form>div.input input[type="text"]:focus,
+div.form>div.form-container>form>div.input input[type="number"]:focus {
     border-bottom: 2px solid green;
 }
 
@@ -182,28 +187,36 @@ div.form-container {
     width: 100%;
     padding: 2%;
     background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-}
-
-div.input {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 div.radio {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-label {
-    font-size: larger;
+input[type="date"] {
+    width: 250px;
 }
 
-label>h4 {
-    margin: 0px;
+form h1 {
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+}
+
+form h4 {
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+}
+
+form h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
 }
