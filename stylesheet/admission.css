@@ -173,7 +173,7 @@ div.form>div.form-container>form>div.input input[type="number"]:focus {
     border-bottom: 2px solid green;
 }
 
-div.form>div.form-container>h1 {
+div.form>div.form-container h1 {
     text-align: center;
     color: green;
 }
@@ -220,6 +220,9 @@ input[type="number"]::-webkit-outer-spin-button {
     display: none;
 }
 
+div.logo-image {
+    width: 20%;
+}
 
 div.logo>.logo-image>img {
     width: 100px;
@@ -230,4 +233,126 @@ div.logo>.logo-image>img {
 div.logo {
     width: 100%;
     display: flex;
+}
+
+div.logo-heading {
+    width: 60%;
+}
+
+div.logo-passport {
+    width: 20%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+div.logo-passport>img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 700px) {
+    div.logo>.logo-image>img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    div.logo-passport>img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+div.input {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+label {
+    max-width: fit-content;
+    flex: 1;
+}
+
+input {
+    flex: 1;
+}
+
+.item {
+    flex: 1 1 30%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .item {
+        flex: 1 1 100%;
+    }
+}
+
+/* Style for the input container */
+input[type="date"] {
+    width: 100%;
+    /* Makes the input take up 100% of the available width */
+    padding: 10px 15px;
+    /* Padding inside the input for better appearance */
+    border: 1px solid #ccc;
+    /* Border color */
+    border-radius: 5px;
+    /* Rounded corners for the input */
+    font-size: 16px;
+    /* Slightly larger font for better readability */
+    background-color: #fff;
+    /* White background */
+    color: #333;
+    /* Dark gray text color */
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* Smooth transitions for focus state */
+}
+
+input[type="date"]:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Subtle shadow effect */
+    outline: none;
+    /* Remove default focus outline */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: transparent;
+    /* Removes background color of the date picker icon in WebKit browsers (Chrome, Safari) */
+    border: none;
+    /* Remove border of the date picker icon */
+}
+
+/* Optional: Add a placeholder if needed */
+input[type="date"]::-webkit-input-placeholder {
+    color: #999;
+    /* Light gray placeholder text */
+    font-size: 16px;
+}
+
+input[type="date"]:disabled {
+    background-color: #f7f7f7;
+    /* Lighter background for disabled state */
+    border-color: #e0e0e0;
+    /* Lighter border for disabled state */
+}
+
+input[type="date"]::-webkit-input-placeholder {
+    color: #888;
+}
+
+input[type="date"]:disabled {
+    background-color: #f7f7f7;
+    border-color: #ccc;
 }
