@@ -278,6 +278,9 @@ div.input {
 label {
     max-width: fit-content;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
@@ -301,4 +304,48 @@ input {
 input[type="date"]:disabled {
     background-color: #f7f7f7;
     border-color: #ccc;
+}
+
+select {
+    width: 200px;
+    padding: 5px 5px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover and focus effects */
+select:hover,
+select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Subtle glow */
+}
+
+/* Custom background with a pseudo-element for the dropdown arrow */
+select::after {
+    content: "▼";
+    /* Unicode character for the dropdown arrow */
+    font-size: 16px;
+    color: #555;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* So the user can still interact with the select */
+}
+
+/* Positioning the select container */
+.select-wrapper {
+    position: relative;
+    display: inline-block;
 }
