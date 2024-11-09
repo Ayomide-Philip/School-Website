@@ -173,6 +173,11 @@ div.form>div.form-container>form>div.input input[type="number"]:focus {
     border-bottom: 2px solid green;
 }
 
+div.form>div.form-container>form>div.input input[type="text"]:focus::placeholder,
+div.form>div.form-container>form>div.input input[type="number"]:focus::placeholder {
+    color: transparent;
+}
+
 div.form>div.form-container h1 {
     text-align: center;
     color: green;
