@@ -174,7 +174,8 @@ div.form>div.form-container>form>div.input input[type="number"]:focus {
 }
 
 div.form>div.form-container>form>div.input input[type="text"]:focus::placeholder,
-div.form>div.form-container>form>div.input input[type="number"]:focus::placeholder {
+div.form>div.form-container>form>div.input input[type="number"]:focus::placeholder,
+textarea:focus::placeholder {
     color: transparent;
 }
 
