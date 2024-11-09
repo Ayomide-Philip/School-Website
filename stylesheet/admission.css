@@ -283,7 +283,8 @@ label {
     align-items: center;
 }
 
-input {
+input[type="text"],
+input[type="number"] {
     flex: 1;
 }
 
@@ -348,4 +349,40 @@ select::after {
 .select-wrapper {
     position: relative;
     display: inline-block;
+}
+
+div.submit-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 200px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50px;
+}
+
+input[type="submit"]:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid green;
+    outline: none;
+    background-color: inherit;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+}
+
+textarea:focus-within {
+    border: 2px solid green;
 }
